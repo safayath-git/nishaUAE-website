@@ -1,0 +1,88 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    width: 90%;
+    
+}
+nav ul {
+    display: flex;
+    list-style:none;
+    justify-content:space-evenly;
+    align-items:center;
+    width:80%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(248, 3, 248);
+    cursor:pointer;
+}
+nav li:hover
+{
+    color: red;
+    scale: 1.2;
+    background-color:lightblue;
+}
+.san{
+    background-color: rgb(231, 193, 146);
+    height: 60px;
+    
+}
+h1{
+    text-align: center;
+    color: brown;
+    font-style: inherit;
+   
+}
+.museum{
+    display: flex;
+    margin: 50px;
+    font-size: 30px;
+    width: 90%;
+}
+.muslink{
+    font-size: x-large;
+    
+}
+.burj{
+    display: flex;
+    margin: 50px;
+    font-size: 20px;
+    width: 90%;
+}
+.but{ width: 180px;
+    height: 60px;
+    margin-left: 500px;
+    background-color:sandybrown
+
+    
+}
+
+.gallery{
+    
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.gallery1
+{
+    
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin-right: 40px;
+    padding: 15px;px;
+}
+.gallery2
+{
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin-right:50px;
+}
